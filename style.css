@@ -78,8 +78,9 @@ body{
     
    
     display: flex;
-    gap: 50%;
+    position: relative;
     padding: 50Px;
+
    
   }
 .villa{
@@ -91,6 +92,8 @@ body{
     display: flex;
     flex-direction: row;
     gap: 20px;
+    position: absolute;
+    right: 35px;
     
    
     align-items: center;
@@ -168,13 +171,7 @@ cursor: pointer;
     
     
 }
-.sevenfourth1{
-    background-image: url("https://plus.unsplash.com/premium_photo-1682377521625-c656fc1ff3e1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dmlsbGF8ZW58MHx8MHx8fDA%3D");
-    height: 100%;
-    width: 40%;
-    background-size: cover;
-   
-}
+
 .fourth1 i{
     background-color: orangered;
     border-radius: 50px;
@@ -404,22 +401,27 @@ background-color: rgb(250, 224, 229);
 .seventh{
     height: fit-content;
     margin: 40px;
+    background-color: rgb(250, 250, 250);
+    border: none;
 }
 .seven1{
     display: flex;
-    flex-direction:column;
+ 
     height: fit-content;
     position: relative;
 }
-.seventh h6{
+.seventh h5{
     color: red;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 .seven11{
     margin-top: 10px;
-   
+    margin-left: 10px;
     display: block;
 
 }
+
 .seven12{
     position: absolute;
     bottom: 0;
@@ -428,22 +430,29 @@ background-color: rgb(250, 224, 229);
     justify-content: end;
     gap: 20px;
 }
-.tab button{
-    padding: 10px;
+.tablinks{
+    padding: 16px;
     background-color: black;
     color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 50px;
+    font-weight: bold;
 }
-.tab button:hover{
+.tablinks:hover{
     cursor: pointer;
     color: orange;
 }
+.tablinks.active{
+    background-color:orange;
+    color: black;
+}
 .sevfourth{
+
     padding: 30px;
     margin: 40px;
-    display: flex;
     gap:50px ;
-    height: 480px;
+    height: 510px;
+
    
    
 }
@@ -453,13 +462,45 @@ background-color: rgb(250, 224, 229);
     box-shadow: 3px 3px 15px rgb(240, 238, 238) ;
     border-radius: 3px;
     padding: 40px;
-    height: calc(100vh/5);
+   
    display: flex;
    flex-direction: column;
    align-items: center;
    gap: 20px;
    height: 100%;
    width: 33%;
+}
+.sevenfourthinner{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    align-items: center;
+    border-bottom: solid rgb(222, 213, 213) 2px;
+    margin: 10px;
+    justify-content: center;
+}
+.sevenfourth1{
+    background-image: url("https://destinationcompress.s3.ap-south-1.amazonaws.com/36d8106d-6d76-45fb-8f7c-8fdcdb53fe8c.jpg");
+    height: 100%;
+    width: 40%;
+    background-size: cover;
+   
+}
+.sevenfourth2{
+    background-image: url("https://www.team.propira.com/images/blog/extra_image/blogextra-1632567009.jpeg");
+    height: 100%;
+    width: 40%;
+    background-size: cover;
+   
+}
+.sevenfourth3{
+    background-image: url("https://2acompany.co.in/assets/upload/luxury-penthouse-for-sale-india-abroad.jpg");
+    height: 100%;
+    width: 40%;
+    background-size: cover;
+   
 }
 .sevenbox3{
    height: 100%;
@@ -472,14 +513,115 @@ background-color: rgb(250, 224, 229);
     margin-bottom: 10px;
 }
 
-.sevenfourthinner{
+.eight{
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+#prop{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+.prophead{
+    font-size: 40px;
+    font-weight: bold;
+}
+.nine{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding: 8px;
+    gap: 20px;
+    margin: 10px;
+
+}
+.nineone{
+    height: 100%;
+    width: 33%;
+    background-color: aliceblue;
+    border: none;
+}
+.nineone a{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.nineone1{
+    display: flex;
+    margin: 15px;
+   
+    margin-top: 20px;
+    position: relative;
+    
+}
+.lux{
+    height: 26px;
+    width: 120px;
+    padding: 6px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}
+.rate{
+    
+    color:orangered;
+    font-weight: bolder;
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+}
+
+.nineone2 a:link{
+    font-weight: bolder;
+    font-size: 25px;
+    display: flex;
+    justify-content: left;
+    margin-left: 15px;
+    color: black;
+    margin: 20px;
+}
+
+.nineone2 a:visited{
+    
+    color: black;
+   
+}
+.nineone3{
+    margin: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-bottom: solid rgb(177, 162, 162) 1.5px;
+    
+}
+.nineone31{
     display: flex;
     gap: 30px;
-    width: 100%;
-    font-size: 20px;
-    padding: 5px;
-    align-items: center;
-    border-bottom: solid rgb(222, 213, 213) 2px;
-    margin: 10px;
+
+}
+.nineone32{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+.nineone4{
+    display: flex;
     justify-content: center;
+}
+.ninebutton{
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.ninebutton:hover{
+    cursor: pointer;
 }
