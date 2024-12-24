@@ -6,59 +6,84 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/06222029c3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@9.0.0/swiper-bundle.min.css">
+    <link rel="stylesheet" href="media.css"> 
+    
 </head>
 <body>
     <div class="outer">
-        <div class="upper">
-            <div class="upperleftout">
-                <div class="upperleft1">
-                    <i class="fa-solid fa-envelope fa-lg" style="color: #FFD43B; font-size: 30px;"></i>
-                    <h5>info@company.com</h5>
+        <div class="top">
+            <div class="upper">
+                <div class="upperleftout">
+                    <div class="upperleft1">
+                        <i class="fa-solid fa-envelope fa-lg" style="color: #FFD43B; font-size: 34px;"></i>
+                        <h5 id="change">info@company.com</h5>
+                    </div>
+                    <div class="upperleft2">
+                        <i class="fa-solid fa-hotel" style="color: #FFD43B;font-size: 30px;"></i>
+                        <h5 id="change">Sunny Isles Beach</h5>
+                    </div>
                 </div>
-                <div class="upperleft1">
-                    <i class="fa-solid fa-hotel" style="color: #FFD43B;font-size: 30px;"></i>
-                    <h5>Sunny Isles Beach, FL 33160</h5>
+            
+                <button class="icon-button">
+                        <i class="fa-brands fa-facebook" style="color: #818283;font-size: 30px;"></i>
+                        <i class="fa-brands fa-square-twitter" style="color: #818283;font-size: 30px;"></i>
+                        <i class="fa-brands fa-linkedin" style="color: #818283;font-size: 30px;"></i>
+                        <i class="fa-brands fa-instagram" style="color: #818283;font-size: 30px;"></i>
+                </button>
+                
+            </div>
+            <div class="second">
+                <div class="villa">
+                    <p>VILLA</p>
                 </div>
-            </div>
-            <div class="upperright">
-            <button class="icon-button">
-                    <i class="fa-brands fa-facebook" style="color: #818283;font-size: 30px;"></i>
-                    <i class="fa-brands fa-square-twitter" style="color: #818283;font-size: 30px;"></i>
-                    <i class="fa-brands fa-linkedin" style="color: #818283;font-size: 30px;"></i>
-                    <i class="fa-brands fa-instagram" style="color: #818283;font-size: 30px;"></i>
-            </button>
-            </div>
-        </div>
-        <div class="second">
-            <div class="villa">
-                <p>VILLA</p>
-            </div>
-            <div class="rest">
-                <a class="link">Home</a>
-                <a class="link">Properties</a>
-                <a class="link">Property Details</a>
-                <a class="link">Contact Us</a>
-                <button class="schedule"><i class="fa-solid fa-calendar-days" style="color: #FFD43B;"></i><p>Schedule a visit</p></button>
+                <div class="rest">
+                    <a class="link">Home</a>
+                    <a class="link">Properties</a>
+                    <a class="link">Property Details</a>
+                    <a class="link">Contact Us</a>
+                    <button class="schedule"><i class="fa-solid fa-calendar-days" style="color: #FFD43B;"></i><p>Schedule a visit</p></button>
 
+                </div>
             </div>
         </div>    
-        <div class="third">
             
-           
-            <div class="thirdinner">
-                <div class="third1">
-                    Toronto,Canada
+            <div class="swiper-container">
+                
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="https://png.pngtree.com/background/20230618/original/pngtree-stunning-modern-villa-with-garden-and-pool-in-dusk-3d-render-picture-image_3759020.jpg" alt="Image 1">
+               
+                  </div>
+                  <div class="swiper-slide"><img src="https://th.bing.com/th/id/R.11f731bbd2873f053162c34fa8290fd5?rik=icVk0AJMp9oQzA&riu=http%3a%2f%2fmessagenote.com%2fwp-content%2fuploads%2f2011%2f04%2ftruscany-villa.jpg&ehk=8iTNr8kqps7FTKvrlSCs3v6i0TnlT538id7qzYuWQl0%3d&risl=&pid=ImgRaw&r=0" alt="Image 2">
+                
+
+                  </div>
+                  <div class="swiper-slide"><img src="https://wallpapercave.com/wp/wp10292952.jpg" alt="Image 3">
+                   
+
+                  </div>
+                  <!-- Add more slides if needed -->
                 </div>
-                <div class="third2">
-                    
-                    <p>HURRY!</p>
-                    <P>GET THE BEST</P>
-                    <P>VILLA FOR</P>
-                    <P>YOU</P>
-                    
+                
+                <div class="thirdinner">
+                    <div class="third1">
+                        Toronto,Canada
+                    </div>
+                    <div class="third2">
+                        
+                        <p>HURRY!</p>
+                        <P>GET THE BEST</P>
+                        <P>VILLA FOR</P>
+                        <P>YOU</P>
+                        
+                    </div>
                 </div>
+                <!-- Optional: Pagination -->
+                <div class="swiper-button-next"></div>
+              
+                
             </div>
-        </div>
+        
         <div class="fourth">
             <div class="fourth1">
                 <i class="fa-solid fa-house-lock" style="color: #fffefa; font-size: 60px;"></i>
@@ -85,7 +110,7 @@
                 <div class="fourth3box">
                     <div class="four31">
                         
-                        <i class="fa-regular fa-building fa-fade" style="color: #FFD43B ; font-size: 60px; "></i>
+                        <i class="fa-regular fa-building fa-fade" style="color: #FFD43B ;  "></i>
                         <div class="four31inner">
                             <b>250m2</b>
                             <p>Total Flat Space</p>
@@ -93,7 +118,7 @@
                     </div>
                     <div class="four31">
                         
-                        <i class="fa-solid fa-person-digging fa-fade" style="color: #FFD43B; font-size: 60px; "></i>
+                        <i class="fa-solid fa-person-digging fa-fade" style="color: #FFD43B;  "></i>
                         <div class="four31inner">
                             <b>Contract</b>
                             <p>contract ready</p>
@@ -101,7 +126,7 @@
                     </div>
                     <div class="four31">
                         
-                        <i class="fa-brands fa-paypal fa-fade" style="color: #FFD43B; font-size: 60px;"></i>
+                        <i class="fa-brands fa-paypal fa-fade" style="color: #FFD43B; "></i>
                         <div class="four31inner">
                             <b>Payment</b>
                             <p>payment process</p>
@@ -542,7 +567,71 @@
             </div>
             
         </div>
+        <div class="ten">
+            <div class="ten1">
+                <img src="https://croatiatopvillas.com/wp-content/uploads/2020/06/Villa-Garden-Oais-21.jpg">
+                <div class="ten1inner">
+                    <b id="contactus">CONTACT US</b>
+                    <p class="intouch">Get In Touch With
+                        <br>
+                        Our Agents
+                    </p>
+                </div>
+                <div class="ten2">
+                    <div class="ten2a">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3921.2308355059495!2d76.06204227497759!3d10.63916706171067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1735020326241!5m2!1sen!2sin" width="100%" height="80%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="ten2abox">
+                            <div class="ten2abox1">
+                                <div class="innerbox10">
+                                    <i class="fa-solid fa-phone" style="color: #FFD43B; font-size:50px;"></i>
+                                    <div class="detailsten">
+                                        <h3><b>010-020-0340</b></h3>
+                                        <p class="phone">Phone Number</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ten2abox1">
+                                <div class="innerbox10">
+                                    <i class="fa-solid fa-envelope" style="color: #FFD43B; font-size:50px;"></i>
+                                    <div class="detailsten">
+                                        <h3><b>info@villa.co</b></h3>
+                                        <p class="phone">Business Email</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ten2b">
+                        <form action="/action_page.php" method="post">
+                            <div class="formword">
+                                <p>Full Name:</p>
+                                <input type="text" name="name" required>
+                            </div>
+                            <div class="formword">
+                                <p>Email Address:</p>
+                                <input type="text" name="name" required>
+                            </div>
+                            <div class="formword">
+                                <p>Subject:</p>
+                                <input type="text" name="name" required>
+                            </div>
+                            <div class="formword1">
+                                <p>Message:</p>
+                                <input type="text" name="name" required>
+                            </div>
+                            <input class="sub" type="submit" value="Send Message">
+                          
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="eleven">
+            <p>Copyright © 2048 Villa Agency Co., Ltd. All rights reserved. Design: TemplateMo</p>
+        </div>
     </div>
+    
+    <script src="https://unpkg.com/swiper@9.0.0/swiper-bundle.min.js"></script>
     <script src="scripts.js"></script>
+    <script src="swiper.js"></script>
 </body>
 </html>

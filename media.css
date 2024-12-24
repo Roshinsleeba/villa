@@ -1,0 +1,282 @@
+
+@media only screen and (max-width: 768px) {
+
+    .outer {
+        flex-direction: column;
+    }
+
+    .upper {
+        display: inline-flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 20px;
+       
+    }
+    #change{
+        font-size: 10px;
+    }
+    .icon-button{
+        /*position: static;
+        justify-content: left; */
+        display: none;
+    }
+    .upperleft1 i{
+        padding-top: 9px;
+    }
+    .second{
+        flex-direction: column;
+        padding: 20px;
+      
+        gap: 0;
+    }
+    .rest{
+        margin-top: 10px;
+        gap: 10px;
+        font-size: 12px;
+         
+     }
+     .schedule{
+        padding: 2px;
+        font-size: 10px;
+     }
+    .swiper-container{
+        height: 500px;
+        
+         
+    }
+    .thirdinner{
+        top: 10%;
+        left: 10%;
+    }
+    .third1{
+        font-size: 35px;
+    }
+    .third2{
+        font-size: 50px;
+    }
+
+    .fourth {
+        flex-direction: column;
+        height: fit-content;
+        padding: 20px;
+        margin: 20px;    
+               
+    }
+    #ap{
+        font-size: 30px;
+    }
+
+    .fourth1, .fourth2, .fourth3 {
+        width: 100%;
+        
+    }
+    .fourth3box{
+        height: fit-content;
+        padding: 20px;
+    }
+    .fourth1{
+        height: 300px;
+    }
+  
+    .bgimage{
+        height: 350px;
+    }
+    .bgimage2 img{
+        height: 250px;
+    }
+    #get, #get2{
+        font-size: 30px;
+    }
+    #vid{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+
+    .sixth {
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+    }
+
+    .six1 {
+        width: 100%;
+        gap: 10px;
+        margin: 0 auto;
+    }
+
+    
+    .six11 {
+        
+        font-size: 30px;
+        justify-content: center;
+        
+    }
+    .six12{
+        font-size: 20px;
+        flex-direction:row ;
+        
+    }
+    .round {
+        display: none;
+    }
+   
+   
+    .seventh {
+        margin: 0px;
+        padding: 0px;
+       
+    }
+
+    .seven1 {
+        flex-direction: column;
+    }
+    .seven11{
+        flex-direction: column;
+    }
+    .seven12{
+        position:static;
+        margin-top: 20px;
+        gap: 5px;
+    }
+    .tablinks{
+        padding: 8px;
+        margin-right:0;
+        
+    }
+    .seventh h5 {
+        font-size: 18px;
+    }
+    .sevfourth{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        padding: 20px;
+        margin: 20px;
+        gap:30px ;
+    }
+  
+    .sevenbox3{
+        height: 100%;
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 1.2;
+    }
+  
+    .seven3box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .sevenfourth1, .sevenfourth2, .sevenfourth3 {
+        width: 100%;
+        background-size: cover;
+        height: 300px;
+    }
+    #prop{
+        font-size: 12px;
+    }
+    .prophead{
+        font-size: 30px;
+       
+    }
+   
+    .nine{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .rate{
+        right: 30px;
+    }
+    .nineone {
+        width: 100%;
+    }
+
+    .nineone1 {
+        margin-top: 20px;
+        position: static;
+    }
+
+    .nineone a {
+        font-size: 20px;
+        color: black;
+    }
+
+    .ninebutton {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+
+    
+    .ten1 {
+        height: 350px;
+        margin-top: 30px;
+      
+    }
+
+    .ten1 img {
+        filter: blur(6px);
+    }
+    .intouch{
+        font-size: 30px;
+    }
+    .ten2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 70px;
+        
+      
+    }
+    .ten2a{
+        width: 80%;
+    }
+    .ten2b{
+        width: 80%;
+    }
+
+    .ten2a iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    .formword input {
+        height: 25px;
+    
+    }
+    .formword1 input {
+        height: 80px;
+    
+    }
+    
+    .formword, .formword1{
+        font-size: 15px;
+    }
+    .sub {
+        width: 100%;
+        height: 50px;
+    }
+
+    .ten2abox {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ten2abox1 {
+        width: 100%;
+    }
+
+    .phone {
+        font-size: 14px;
+    }
+
+    .eleven {
+        font-size: 14px;
+        margin-top: 350px;
+    }
+    #contactus{
+        display: none;
+    }
+}
+
